@@ -1,0 +1,22 @@
+{
+  "name": "applet",
+  "version": "0.1.0",
+  "description": "Build, run and share small stateful apps on Applet from chat, with no local environment.",
+  "author": {
+    "name": "Tavon",
+    "url": "https://applet.one"
+  },
+  "homepage": "https://applet.one",
+  "keywords": [
+    "apps",
+    "hosting",
+    "prototyping",
+    "developer-tools"
+  ],
+  "mcpServers": {
+    "applet": {
+      "type": "http",
+      "url": "https://mcp.applet.one/mcp"
+    }
+  }
+}

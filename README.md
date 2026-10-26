@@ -2,6 +2,14 @@
 
 Plugins for [Applet](https://applet.one): build, run and share small stateful apps from chat, with no local environment.
 
+## Install in Claude Code
+
+```
+/plugin install applet --marketplace applet-one/plugins
+```
+
+Or from a terminal: `claude plugin marketplace add applet-one/plugins` and then `claude plugin install applet@applet-one`. Run `/mcp` once to sign in with your applet.one account.
+
 ## Install in ChatGPT or Codex
 
 1. Add this marketplace (needs the [Codex CLI](https://developers.openai.com/codex)):
@@ -18,6 +26,6 @@ Update later with `codex plugin marketplace upgrade applet-one`.
 ## Contents
 
 - `plugins/applet/`: the plugin (`plugin.json`, `mcp.json` pointing at `https://mcp.applet.one/mcp`, skills). Generated from the Applet platform repository; do not edit by hand.
-- `.agents/plugins/marketplace.json`: the marketplace catalog.
+- `.agents/plugins/marketplace.json` (ChatGPT and Codex) and `.claude-plugin/marketplace.json` (Claude Code): the marketplace catalogs.
 
 Feedback and problems: open an issue in this repository.

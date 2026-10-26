@@ -3,4 +3,4 @@
 
 A portable Agent Plugin: `plugin.json` (manifest and directory listing under `extensions.com.openai`), `mcp.json` (https://mcp.applet.one/mcp, OAuth with dynamic client registration), the guide as the `applet-hosted` skill and a `setup` onboarding skill.
 
-Install instructions: see the README at the repository root.
+Install in Claude Code with `/plugin install applet --marketplace applet-one/plugins`; for ChatGPT and Codex see the README at the repository root.

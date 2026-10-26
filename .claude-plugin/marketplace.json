@@ -1,0 +1,14 @@
+{
+  "name": "applet-one",
+  "owner": { "name": "Tavon", "url": "https://applet.one" },
+  "metadata": { "description": "Applet plugins: build, run and share small stateful apps from chat." },
+  "plugins": [
+    {
+      "name": "applet",
+      "source": "./plugins/applet",
+      "description": "Build, run and share small stateful apps on Applet from chat, with no local environment.",
+      "version": "0.1.0",
+      "category": "development"
+    }
+  ]
+}
