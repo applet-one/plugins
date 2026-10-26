@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title id="title">Applet.one</title>
+  <rect width="96" height="96" fill="#111111"/>
+  <rect x="7" y="7" width="82" height="82" fill="#0000a8"/>
+  <path d="M17 77 39 19h18l22 58H63l-4-12H37L33 77Zm25-25h12l-6-18Z" fill="#fff56b"/>
+</svg>

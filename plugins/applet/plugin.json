@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "applet",
+  "version": "0.1.0",
+  "description": "Build, run and share small stateful apps on Applet from chat, with no local environment.",
+  "author": {
+    "name": "Tavon",
+    "url": "https://applet.one"
+  },
+  "homepage": "https://applet.one",
+  "keywords": [
+    "apps",
+    "hosting",
+    "prototyping",
+    "developer-tools"
+  ],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "interface": {
+        "displayName": "Applet",
+        "shortDescription": "Build and share small stateful apps from chat",
+        "longDescription": "Describe an app and the agent builds it on Applet: a page, a tool or a small service with its own data, live at its own URL seconds after each change. Apps stay private until you choose to share them.",
+        "developerName": "Tavon",
+        "category": "Developer Tools",
+        "websiteURL": "https://applet.one",
+        "privacyPolicyURL": "https://applet.one/terms",
+        "termsOfServiceURL": "https://applet.one/terms",
+        "defaultPrompt": [
+          "Build me a small app to track my team's lunch orders",
+          "Show me my Applet apps"
+        ],
+        "brandColor": "#0000a8",
+        "logo": "./assets/logo.svg",
+        "composerIcon": "./assets/logo.svg"
+      }
+    }
+  }
+}

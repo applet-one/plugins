@@ -1,0 +1,11 @@
+{
+  "name": "applet-one",
+  "plugins": [
+    {
+      "name": "applet",
+      "source": { "source": "local", "path": "./plugins/applet" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Developer Tools"
+    }
+  ]
+}
